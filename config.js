@@ -172,7 +172,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/C3qfjWx2/6.png',
+            image: 'https://i.ibb.co/zT6T9yG6/6.png',
             description: '',
             location: {
                 center: [28.9724524270974,41.01725265168162],
@@ -198,7 +198,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/Xr32QD95/7.png',
+            image: 'https://i.ibb.co/k2cjcrL0/7.png',
             description: '',
             location: {
                 center: [28.9724524270974,41.01725265168162],
