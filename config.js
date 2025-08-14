@@ -19,7 +19,7 @@ var config = {
     title: 'Eminönü Meydanı Projesi Basına Yansıyan Görüşler / Press Coverage of the Eminönü Square Project ',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '1',
@@ -27,7 +27,7 @@ var config = {
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/hFpc4hC5/1.png',
-            description: '',
+            description: 'Eminönü Square under construction in 1940 and planned transformations',
             location: {
                center: [28.97131817837604,41.018050376587205],
                 zoom: 12,
@@ -87,7 +87,7 @@ var config = {
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/vCXTNRCX/3.gif',
-            description: '',
+            description: 'Expropriations for the Public Square of Eminönü.',
             location: {
               center: [28.97131817837604,41.018050376587205],
                 zoom: 15,
@@ -125,7 +125,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -147,7 +147,7 @@ var config = {
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/x8q35FPX/5.png',
-            description: '',
+            description: '"New Istanbul! When Eminönü Square opens…What losses will the shopkeepers face? What do the shopkeepers say?"',
             location: {
                  center: [28.97131817837604,41.018050376587205],
                 zoom: 17,
@@ -172,7 +172,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/zT6T9yG6/6.png',
+            image: 'https://i.ibb.co/C3qfjWx2/6.png',
             description: '',
             location: {
                 center: [28.9724524270974,41.01725265168162],
@@ -198,8 +198,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/k2cjcrL0/7.png',
-            description: '',
+            image: 'https://i.ibb.co/Xr32QD95/7.png',
+            description: 'When the expansion of Eminönü Square was discussed, the local shopkeepers and especially the tenants expressed their dissatisfaction. They argued that the improvements they had made—such as adding shelves, cabinets, and display cases—had increased the value of their shops, benefiting the landlords without causing them any loss, and therefore they demanded compensation. It was also noted that they were holding meetings among themselves and planning to send a representative to Ankara to defend their rights.',
             location: {
                 center: [28.9724524270974,41.01725265168162],
                 zoom: 19,
@@ -251,7 +251,7 @@ var config = {
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/kV23YsXx/9.png',
-            description: '',
+            description: 'In the Akşam newspaper dated 7 September 1940, it was reported that recent rains had turned Eminönü Square into a pool, despite previous sewer works. The problem was caused by the newly built concrete paving, which was 6 centimeters higher than the drains, preventing water from flowing away. With asphalt now being laid, it was assured that such flooding would no longer occur.',
             location: {
                center: [28.9706173193716,41.0175900298652],
                 zoom: 19,
@@ -303,10 +303,10 @@ var config = {
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/sdLXv97P/11.png',
-            description: '',
+            description: 'Newspapers report differing opinions about the current state of Eminönü Square, with some finding its appearance unappealing. Urban planning expert Architect Prost has been studying the square to give it a more aesthetic look, and it has been pointed out that the stairs in front of Yenicami are unsuitable. The square is also criticized for being bare, treeless, and colorless. The author argues that the opinion of an expert like Prost should be valued, and questions why he was not consulted if the square was constructed without his input.',
             location: {
-                center: [28.97131817837604,41.018050376587205],
-                zoom: 15,
+                center: [28.974963057992756,41.01690271971029],
+                zoom: 15.7,
                 pitch: 10,
                 bearing: 0,
                 // flyTo additional controls-
@@ -317,7 +317,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
