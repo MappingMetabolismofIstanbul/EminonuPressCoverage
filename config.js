@@ -254,7 +254,7 @@ var config = {
             description: 'In the Akşam newspaper dated 7 September 1940, it was reported that recent rains had turned Eminönü Square into a pool, despite previous sewer works. The problem was caused by the newly built concrete paving, which was 6 centimeters higher than the drains, preventing water from flowing away. With asphalt now being laid, it was assured that such flooding would no longer occur.',
             location: {
                center: [28.9706173193716,41.0175900298652],
-                zoom: 19,
+                zoom: 17,
                 pitch: 10,
                 bearing: 0,
               
@@ -292,7 +292,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
@@ -302,12 +302,12 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/sdLXv97P/11.png',
-            description: 'Newspapers report differing opinions about the current state of Eminönü Square, with some finding its appearance unappealing. Urban planning expert Architect Prost has been studying the square to give it a more aesthetic look, and it has been pointed out that the stairs in front of Yenicami are unsuitable. The square is also criticized for being bare, treeless, and colorless. The author argues that the opinion of an expert like Prost should be valued, and questions why he was not consulted if the square was constructed without his input.',
+            image: 'https://i.ibb.co/JwDsB0cD/11.png',
+            description: '',
             location: {
                 center: [28.974963057992756,41.01690271971029],
                 zoom: 15.7,
-                pitch: 10,
+                pitch: 0,
                 bearing: 0,
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
